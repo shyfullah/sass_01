@@ -1,0 +1,32 @@
+
+nav{
+    .logo{
+        width: 30%;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: red;
+    }
+    .nav-item{
+        width: 70%;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        ul li{
+            display: inline-block;
+            padding: 0 20px;
+            a{
+                color: #222;
+                font-weight: 700;
+                text-transform: uppercase;
+                background-color: orange;
+                padding: 10px 15px;
+                border-radius: 5px;
+                transition: all linear 0.5s;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
