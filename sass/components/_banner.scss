@@ -1,0 +1,11 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+.banner{
+    @include divSize(100%,250px,green);
+    h1{
+        text-align: center;
+        color: #fff;
+        line-height: 250px;
+    }
+}
