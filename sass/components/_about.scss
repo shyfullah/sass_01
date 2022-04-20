@@ -1,0 +1,22 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+.about{
+    margin-top: 15px;
+}
+
+.about-img{
+    @include divSize(45%,200px,red);
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+}
+
+.about-text{
+    @include divSize(50%,200px,blue);
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+}

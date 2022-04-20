@@ -108,4 +108,62 @@ img {
   color: #fff;
   line-height: 250px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about {
+  margin-top: 15px;
+}
+
+.about-img {
+  width: 45%;
+  height: 200px;
+  background-color: red;
+}
+
+.about-img h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.about-text {
+  width: 50%;
+  height: 200px;
+  background-color: blue;
+}
+
+.about-text h2 {
+  text-align: center;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
