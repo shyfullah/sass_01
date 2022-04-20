@@ -1,0 +1,11 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+.contact{
+    @include divSize(100%,40px,orange);
+    h2{
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+    }
+}
