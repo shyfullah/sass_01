@@ -1,0 +1,19 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+
+.service{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    @include divSize(100%,350px,transparent);
+}
+
+.service-item{
+    @include divSize(30%,350px,green);
+    h2{
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 350px;
+    }
+}
