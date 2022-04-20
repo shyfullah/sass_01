@@ -1,0 +1,17 @@
+@import "../common/common";
+@import "../mixin/divSize";
+
+.gallery{
+    @include divSize(100%,240px,transparent);
+    margin-bottom: 15px;
+}
+
+.gal-item{
+    @include divSize(25%,240px,rgb(113, 240, 75));
+    border: 1px solid black;
+    h2{
+        text-align: center;
+        color: rgb(1, 0, 0);
+        line-height: 240px;
+    }
+}
